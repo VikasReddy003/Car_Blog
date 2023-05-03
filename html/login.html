@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Blog login</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../js/login.js" defer></script>
+</head>
+<body>
+    <div id="outterCont">
+
+
+        <div id="innerCont">
+
+
+            <p id="loginHeading">Login</p>
+
+            <form>
+
+                <div class="inputDiv">
+                    <input type="text" placeholder="Email or Phone Number" class="input" required>
+                </div>
+
+                <div class="inputDiv" id="inputDiv">
+                     <input type="password" placeholder="Password" class="input" required>
+                     <img src="../asst/images/mnk-eyeClosing.jpeg" id="passwordImg" onmousedown="passwordImage()" onmouseup="passwordsImg()">
+                </div>
+
+            <p id="passValid"></p>
+
+            <input type="button" value="Login" id="loginButt" onclick=" passValid()">
+            <p id="lastPara">Not a user? <a href="../html/signup.html" target="_blank"><span>Create Account</span></a></p>
+        </form>
+
+
+        </div>
+
+
+    </div>
+</body>
+</html>

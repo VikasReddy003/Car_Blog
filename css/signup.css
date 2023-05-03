@@ -1,0 +1,119 @@
+*{
+    padding: 0vw;
+    margin: 0vw;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cointainer{
+    width: 35vw;
+    height: 70vh;
+    background-color: rgba(255, 0, 0, 0.065);
+    border-radius: 2.7vh;
+    box-shadow: 0.5vh 0.5vh 0.5vh black;
+}
+#header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5.4vh;
+    font-weight: bold;
+}
+#sinup{
+    color: rgb(189, 166, 22);
+    cursor: default;
+}
+#sinin{
+    color: red
+}
+#sinin:hover{
+    cursor: default;
+    color: blue
+}
+.inp{
+    width: 15vw;
+    height: 5vh;
+    margin: 0.6vw;
+    padding-left: 0.8vw;
+    font-size: 2.8vh;
+    color: blue;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 1.5vh;
+}
+.inp1{
+    width: 33vw;
+    height: 5vh;
+    margin-left: 0.6vw;
+    margin-top: 1vh;
+    margin-bottom: 0.5vh;
+    font-size:2.8vh;
+    text-indent: 0.8vw;
+    color: blue;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 1vw;
+}
+.label{
+    font-size: 3vh;
+    padding: 1.4vw;
+    position: relative;
+    top: 1.3vh;
+}
+.radio{
+    justify-content: space-evenly;
+    margin: 0.5vw;
+}
+.genderSec{
+    position: relative;
+    left: 5vw;
+    top: 2.1vh;
+    font-size: 2.8vh;
+    padding: 1.3vh;
+}
+#dateCointainer{
+    width: 100%;
+    height: 8vh;
+    margin-top: 3vh;
+    
+}
+.dateOptions
+{
+    position: relative;
+    top: 1vh;
+    padding: 0.4vw;
+    font-size: 2vh;
+}
+#info{
+    margin-left: 0.7vw;
+    text-indent: 1.5vw;
+}
+#subButDiv{
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5vh;
+}
+#subBut{
+    width: 8vw;
+    height: 6vh;
+    font-size: 3vh;
+    border: none;
+    background-color: yellowgreen;
+    border-radius: 1.5vh;
+    font-weight: bold;
+    box-shadow: 0.3vw 0.3vw 0.3vw black;
+}
+#anchorLogin{
+    text-decoration: none;
+}
